@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Design Template",
-    description: "Nexjs atmost",
+    title: "Layers",
+    description: "Layers LAnding Page",
 };
 
 export default function RootLayout({
