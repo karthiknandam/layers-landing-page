@@ -5,8 +5,6 @@ import relumeLogo from "@/assets/images/relume-logo.svg";
 import framerLogo from "@/assets/images/framer-logo.svg";
 import githubLogo from "@/assets/images/github-logo.svg";
 import Tag from "@/components/Tag";
-import { div } from "framer-motion/client";
-import Image from "next/image";
 import IntegrationColoumn from "@/components/IntegrationColoumn";
 const integrations = [
     {

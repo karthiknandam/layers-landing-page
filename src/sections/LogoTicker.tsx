@@ -8,7 +8,6 @@ import apexLogo from "@/assets/images/apex.svg";
 import celestialLogo from "@/assets/images/celestial.svg";
 import twiceLogo from "@/assets/images/twice.svg";
 import Image from "next/image";
-import { image } from "framer-motion/client";
 import React from "react";
 import { motion } from "framer-motion";
 const logos = [

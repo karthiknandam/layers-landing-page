@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
 import React, { memo, useState } from "react";
-import plus from "@/assets/images/plus.svg";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
 const FaqComponent = memo((props: { title: string; description: string }) => {
@@ -50,5 +48,5 @@ const FaqComponent = memo((props: { title: string; description: string }) => {
         </div>
     );
 });
-
+FaqComponent.displayName = "Faq Component";
 export default FaqComponent;

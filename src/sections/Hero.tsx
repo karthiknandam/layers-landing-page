@@ -25,7 +25,7 @@ export default function Hero() {
         updateCursor();
         window.addEventListener("resize", updateCursor);
         return () => window.removeEventListener("resize", updateCursor);
-    }, [cursorYourImage]);
+    }, []);
     useEffect(() => {
         leftDesignAnimate([
             [leftDesignScope.current, { opacity: 1 }, { duration: 0.5 }],
@@ -147,7 +147,7 @@ export default function Hero() {
                     Impactful design, created effortlessly
                 </h1>
                 <p className="text-white/50 text-xl mt-8 text-center max-w-2xl mx-auto">
-                    Design tools shouldn't slow you down. Layers combines
+                    Design tools shouldn&apos;t slow you down. Layers combines
                     powerful features with an intuitive interface that keeps you
                     in your creative flow.
                 </p>

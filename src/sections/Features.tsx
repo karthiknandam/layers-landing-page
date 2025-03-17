@@ -7,7 +7,6 @@ import avatar3 from "@/assets/images/avatar-florence-shaw.jpg";
 import avatar4 from "@/assets/images/avatar-owen-garcia.jpg";
 import Avatar from "@/components/Avatar";
 import Image from "next/image";
-import { div, span } from "framer-motion/client";
 import Key from "@/components/Key";
 
 const features = [
@@ -96,7 +95,7 @@ export default function Features() {
                     >
                         <div className="aspect-video flex justify-center items-center">
                             <p className="text-white/20 text-4xl font-extrabold group-hover:text-white/15 text-center transition duration-500">
-                                We've achieved{" "}
+                                We&apos;ve achieved{" "}
                                 <span className="block bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
                                     <span>incredible</span>
                                     <video

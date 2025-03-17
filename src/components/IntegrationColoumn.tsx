@@ -4,7 +4,6 @@ import { IntegrationType } from "@/sections/Integrations";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
 
 // If any one has better approach just feel free to pull request
 
@@ -26,6 +25,7 @@ const IntegrationColoumn = (props: {
                     ease: "linear",
                 }}
                 className={twMerge("flex flex-col gap-4 pb-4", className)}
+                {...other}
             >
                 {Array.from({ length: 2 }).map((_, i) => (
                     <React.Fragment key={i}>

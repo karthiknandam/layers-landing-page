@@ -43,7 +43,7 @@ export default function Introduction() {
                             ))}
                         </span>
                         <span className="block text-lime-500">
-                            That's why we built Layers.
+                            That&apos;s why we built Layers.
                         </span>
                     </div>
                 </div>

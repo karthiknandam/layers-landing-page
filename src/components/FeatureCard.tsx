@@ -1,5 +1,5 @@
-import React, { HTMLAttributes, ReactNode } from "react";
-import { twJoin, twMerge } from "tailwind-merge";
+import React, { ReactNode } from "react";
+import { twMerge } from "tailwind-merge";
 
 const FeatureCard = (props: {
     title: string;

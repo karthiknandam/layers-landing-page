@@ -12,7 +12,7 @@ export default function CallToAction() {
             { x: "-50%" },
             { duration: 30, ease: "linear", repeat: Infinity }
         );
-    }, [animation]);
+    }, []);
     useEffect(() => {
         if (animation.current) {
             if (mouseEnter) {
@@ -21,7 +21,7 @@ export default function CallToAction() {
                 animation.current.speed = 1;
             }
         }
-    });
+    }, []);
     return (
         <section className="py-24">
             <div className="flex overflow-hidden p-4">

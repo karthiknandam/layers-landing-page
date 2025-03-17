@@ -1,4 +1,4 @@
-import React, { HTMLAttributes, memo, ReactNode, useMemo } from "react";
+import React, { HTMLAttributes, memo, ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
 const Tag = memo(
@@ -24,5 +24,5 @@ const Tag = memo(
         );
     }
 );
-
+Tag.displayName = "Tag";
 export default Tag;

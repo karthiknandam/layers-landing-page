@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: "Layers",
-    description: "Layers LAnding Page",
+    description: "Layers Landing Page",
 };
 
 export default function RootLayout({
